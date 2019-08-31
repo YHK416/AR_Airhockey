@@ -13,6 +13,7 @@ public class BallControl : MonoBehaviour
     public GameObject BallObject;
     public int[] Score = new int[2];
     public GameObject[] goal=new GameObject[2];
+    public Text ScoreText;
 
     void Start()
     {
@@ -40,7 +41,7 @@ public class BallControl : MonoBehaviour
 
 
     //텍스트 
-    void SetScoreText(Text ScoreText)
+    public void SetScoreText()
     {
         T.text = "Player1:" + Score[0] + "Player2:" + Score[1];
     }
