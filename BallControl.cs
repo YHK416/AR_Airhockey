@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class BallControl : MonoBehaviour
 {
 
-    //게임에게 달아주면 됨.
+    //게임에게 달아주면 됨.(아무 사라지지 않은 오브젝트에나 한개만달아주면 됨)
     //정확히 이거 기능은 게임에서 다루면 되는건데 그냥 나눠서 작업하니 분리.
     //역할은 1)볼만들고 배치관리. 2) 골들어가면 점수 text에 점수변경.(UI에 ScoreText추가)
 
