@@ -32,8 +32,7 @@ public class HockeyStickControl : MonoBehaviour
 
 
 
-
-    //볼생성함수
+    //스틱생성함수
     public void SpawnStick()
     {
         StickObjectPlayer0 = GameObject.CreatePrimitive(PrimitiveType.Cube);
@@ -53,7 +52,7 @@ public class HockeyStickControl : MonoBehaviour
 
     }
 
-
+//
     public Text TextExam;
     public void SetText(string Test)
     {
